@@ -1,0 +1,52 @@
+References Link-
+bluebird mysql-
+http://bluebirdjs.com/docs/api/disposer.html
+
+Express js-
+http://expressjs.com/
+
+STEP 1-
+1) Make a Folder for API i.e EXAM 
+
+2) run the following commands-
+npm init,
+npm install bluebird,
+npm install cors,
+npm install express,
+npm install nodemon,
+npm install mysql 
+
+3)In package.json file write   "start": "nodemon src/main.js",
+
+4)Create src folder in that folder create 2 files user.js & main.js
+
+5) In user.js import mysql and bluebird
+
+6) Create the connection for database.
+
+7) In mysql workbench create 1 database inside that database create table and try to insert values from javascript
+
+8) Check that values has been inserted into table.
+
+9)In main.js file import express and cors.
+
+10)Check the server has been started and and table data has been displayed on browser using post and get method.
+
+
+STEP 2-
+
+1) In command prompt write command npx create-react-app exam and install the react project.
+
+2) Now access the application using default server i.e http://localhost:3000 using npm start command in terminal.
+
+4) Create 1 registration form and check the data from frontend has been displayed in our table which we have created in workbench.
+
+5) If possible try to display all the data from database on the browser.This can be done using 2 ways-
+i.e a) using react method (useEffect()) and b) using axios
+
+3) Install external dependency i.e npm install axios as we are not using fetch method.Also import axios.
+
+4) We have 1 react method i.e useEffect it will act just like constructor.Which takes 2 parameter and arrow function.
+
+
+
